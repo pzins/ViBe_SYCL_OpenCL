@@ -13,7 +13,7 @@ SYCL makes the developpment easier (C++ and single source style), but also have 
 ### ViBe : Background substraction
 
 
-To do that, I chose a method for which using a GPU should probably be beneficial : **[ViBe](https://orbi.ulg.ac.be/bitstream/2268/145853/1/Barnich2011ViBe.pdf)**</br>
+To do that, I chose a method for which using a GPU should probably be beneficial : **[ViBe](https://orbi.ulg.ac.be/bitstream/2268/145853/1/Barnich2011ViBe.pdf)**
 Indeed, this is used in computer vision for background substraction and detection.
 
 ![vibe](https://github.com/pzins/pzins.github.io/blob/master/img/vibe2.png)
