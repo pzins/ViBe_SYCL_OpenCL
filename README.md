@@ -27,14 +27,15 @@ I developped 3 versions of the ViBe method, with use of the computer vision libr
 - SYCL implementation which executes on the GPU or CPU (multi-thread)
 
 The configuration used:
-1. Hardware :
-- CPU : Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
-- GPU : AMD R9 Fury Nano
-2. Software :
-- OS : Ubuntu 14.04
-- OpenCL : AMD implementation (AMD driver fglrx-15.302)
-- OpenCL 2.0 (GPU) and 1.2 (CPU)
-- SYCL Codeplay implementation : ComputeCpp 0.2.0
+- Hardware :
+  - CPU : Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+  - GPU : AMD R9 Fury Nano
+
+- Software :
+  - OS : Ubuntu 14.04
+  - OpenCL : AMD implementation (AMD driver fglrx-15.302)
+  - OpenCL 2.0 (GPU) and 1.2 (CPU)
+  - SYCL Codeplay implementation : ComputeCpp 0.2.0
 
 
 Here are the results obtained (with all graphical output disabled)
