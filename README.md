@@ -40,7 +40,7 @@ The configuration used:
 
 Here are the results obtained (with all graphical output disabled)
 
-![vibe results](https://github.com/pzins/pzins.github.io/blob/master/img/vibe.png)
+![vibe results](img/vibe.png)
 
 Obviously the worst result (almost 135s) is obtained with the baseline implementation on the CPU (single thread). Using the hardware in a more efficient way increase a lot the performance.
 First, if we look at the CPU. With OpenCL, the CPU is more efficiently used : several threads are launched on the different CPU cores. ViBe is almost 9 times faster in this case. Using SYCL add a litte overhead of almost 50% compared to raw OpenCL.
