@@ -57,7 +57,7 @@ Thanks to this tool, we can compare the OpenCL API calls of both version :
 - SYCL :
 ![RCP SYCL](https://github.com/pzins/pzins.github.io/blob/master/img/rcp_sycl.png)
 
-The two timelines represents, one process iteration of the ViBe algorithm : for all pixel of the frame, determine if it belong to the background or foreground and update background model.
+The two timelines represent, one process iteration of the ViBe algorithm : for all pixel of the frame, determine if it belong to the background or foreground and update background model.
 The duration of is around 0.3ms for the SYCL version and around 0.275ms for the OpenCL version.
 For the OpenCL timeline, we really see the API calls, used in our code, whereas with SYCL all the OpenCL call are made by the libComputeCPP.so from Codeplay.
 
