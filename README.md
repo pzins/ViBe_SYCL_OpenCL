@@ -2,11 +2,11 @@
 ---
 
 ### OpenCL
-_OpenCL_ is a well known framework for writing programs which run on heterogeneous devices, such as multicore CPUs, GPUs, DSPs, FPGAs. Using such devices in an efficient way, often speeds up your programs execution. GPUs are very common today, in any computer, and it's important to benefit from their computing power.
+_OpenCL_ is a well known framework for writing programs which run on heterogeneous devices, such as multicore CPUs, GPUs, DSPs, FPGAs. Using such devices in an efficient way often speeds up your programs. GPUs are very common today, in any computer, and it's important to benefit from their computing power.
 
 
 ### SYCL
-_SYCL_ is a C++ abstraction layer over OpenCL which aims to make OpenCL programming easier. Indeed, SYCL allows developpers to benefit from C++ features and brings "single source" programming style, whereas OpenCL is mainly based on C language (a C++ layer is also available) and requires "kernels" (code which is going to be executed on the device) to be written in another file. As OpenCL, SYCL is a royalty-free specification of the Khronos Group. [Codeplay](https://www.codeplay.com/), a scottish company, has developped a SYCL implementation (and a compiler for the kernels) called ComputeCpp. It is not open-source but a "Community Edition" is available on their website.
+_SYCL_ is a C++ abstraction layer over OpenCL which aims to make OpenCL programming easier. Indeed, SYCL allows developpers to benefit from C++ features and brings "single source" programming style, whereas OpenCL is mainly based on C language (a C++ layer is also available) and requires "kernels" (code which is going to be executed on the device) to be written in another file. As OpenCL, SYCL is a royalty-free specification of the Khronos Group. [Codeplay](https://www.codeplay.com/), a Scottish company, has developped a SYCL implementation (and a compiler for the kernels) called ComputeCpp. It is not open-source but a "Community Edition" is available on their website.
 
 On one hand, SYCL makes the developpment easier (C++ and single source style), but on the other hand, it affects negatively the global performance. So, it is interesting to estimate the loss in performance invloved by the use of SYCL.
 
